@@ -1,6 +1,6 @@
 fdk-aac-prebuilt
 ================
-Prebuilt of [mstorsjo/fdk-aac: A standalone library of the Fraunhofer FDK AAC code from Android.](https://github.com/mstorsjo/fdk-aac)
+Prebuilt of [opencore-amr - Browse /fdk-aac at SourceForge.net](https://sourceforge.net/projects/opencore-amr/files/fdk-aac/)
 
 ### Playground
 - [dirkarnez/fdk-aac-playground](https://github.com/dirkarnez/fdk-aac-playground)
