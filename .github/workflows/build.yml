@@ -31,13 +31,7 @@ jobs:
       cmakeInstallationPath: fdk-aac-installation
       tagName: v2.0.3
     steps:
-    
-      - uses: actions/checkout@v4
-        with:
-          repository: mstorsjo/fdk-aac
-          ref: ${{ env.tagName }}
-          path: ${{ env.libraryName }}
-          submodules: true
+      - run: git clone --recurse-submodules https://git.code.sf.net/p/opencore-amr/fdk-aac && cd fdk-aac && git checkout ${{ env.tagName }}
           
       - name: download compiler
         if: ${{  matrix.compiler.url }}
